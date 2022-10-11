@@ -26,7 +26,7 @@ As a admin I need to be able to:
 
 ### Intention
 
-My intension for this project was to make a simple easy to use / naviate easy to understand website 
+My intension for this project was to make a simple easy ecommerce graphic store
 
 ### Features I aimed to achieve with this project:
 
