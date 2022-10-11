@@ -63,5 +63,5 @@ Graphic Store - Balsamiq Wireframe
 
 ![mv](https://user-images.githubusercontent.com/43074374/194976182-247b2c9e-d418-457e-abc7-875d834c30e1.png)
 
-# WebSite Design
+# Design
 
