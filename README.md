@@ -4,7 +4,7 @@
 
 link : 
 
-# Project Five - Graphic Store
+# Project Five
 
 # User Stories
 
