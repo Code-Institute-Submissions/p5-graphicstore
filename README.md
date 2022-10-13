@@ -14,9 +14,10 @@ User Stories: As a guest I would like to be able to:
 
 As a user I would like to be able to:
 
-- As a user you will be able to view and sellect the plan you want only if loged in
-- As a user you will be able to view customize your plan
-- As a user you will be able to add update or delete from your shopping cart
+- As a guest user you will not be able to shop until you singup / login
+- As a user you will be able to add a plan to cart
+- As a user you will be able to add multiple plans to your cart
+- As a user you will be able to delete your plan from the cart
 
 As a admin I need to be able to:
 
