@@ -15,6 +15,9 @@ User Stories: As a guest I would like to be able to:
 As a user I would like to be able to:
 
 - As a guest user you will not be able to shop until you singup / login
+- As a user you will be able to create an account 
+- As a user you will be able to change your account email
+- AS a user you will be able to delete your account
 - As a user you will be able to add a plan to cart
 - As a user you will be able to add multiple plans to your cart
 - As a user you will be able to delete your plan from the cart
@@ -36,8 +39,13 @@ My intension for this project was to make a simple easy ecommerce graphic store
  - I amed to bring people in who are intrested in art but dont have the time to do it
 
 # How To Navigate The Website: 
- - You start on the home page looking at the Home page with examples of the art work 
+ - You start on the home page looking at the Home page with examples of the art work.
+ - You then go to do the the individual products page to check out each sections art work.
+ - Then you go to the about page to to understand how the store works.
+ - Then you navigate to the Plan page where you will see the plans that are on offer.
+ - Then lastly you will navigate to the prices page where the user can select a single payment plan or multiple plans.
  - Once The user is logged in they will be able to purchase / edit what they want to buy
+ - When the user makes an order they will recieve an email with info on how long their order will take.
 
 
 # Planning 
@@ -46,19 +54,19 @@ Graphic Store - Balsamiq Wireframe
  - Desktop View 
  - Home Page
 
-![HP](https://user-images.githubusercontent.com/43074374/194975294-676c97d6-4250-4729-858d-b200f4f64e09.png)
+![BalsamiqWireframes_7HOnx9jpUM](https://user-images.githubusercontent.com/43074374/197448243-3f71be6d-6f85-4a79-afde-30683413e0d9.png)
 
  - About Page
 
-![AP](https://user-images.githubusercontent.com/43074374/194975373-68054fbf-c131-4b9e-a974-181d1fd33e34.png)
+![BalsamiqWireframes_V8hvk3oTUY](https://user-images.githubusercontent.com/43074374/197448369-578b7766-308e-4425-b36d-f8749bc9b64c.png)
 
 - Plan Page
 
-![PP](https://user-images.githubusercontent.com/43074374/194975429-9ad4657d-b40b-4a60-b5b2-588a7d121f9d.png)
+![BalsamiqWireframes_WIAaghEI3e](https://user-images.githubusercontent.com/43074374/197448433-ba492462-8f87-4494-ab88-a2a4d39b5d4b.png)
 
 - Prices Page
 
-![prp](https://user-images.githubusercontent.com/43074374/194975551-f0769d1a-eb95-42c6-8ace-0ed85c4816a6.png)
+![BalsamiqWireframes_UacSeOfMgM](https://user-images.githubusercontent.com/43074374/197448501-18a377d9-7028-4e3e-b633-3b62ce15b335.png)
 
 - Mobile View
 
