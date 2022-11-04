@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1000">
+            <img src="../media/abstract-art.jpg" class="d-block w-100" alt="abstract-art">
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="../media/nft.jpg" class="d-block w-100" alt="NFT-art">
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="../media/Lofi-livingroom.jpg" class="d-block w-100" alt="Lofi-art">
+          </div>
+        </div>
+      </div>
+      <script>
+        const myCarouselElement = document.querySelector('#carouselExampleDark')
+        const carousel = new bootstrap.Carousel(myCarouselElement, {
+        interval: 4000,
+        wrap: true
+        })
+      </script>
+       <h1 class="text-center my-5">About Page</h1>
+       <hr class="w-50 mb-1">
+{% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+
+{% endblock %}
