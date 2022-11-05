@@ -16,7 +16,8 @@ As a user I would like to be able to:
 - As a user you will be able to browse example art in the store in the categories
 - As a user you will be able to add a discription of what which category they choose 
 - As a user you will be able to see the plan you chose with the discription in your shopping cart
-- As a user you will be able to modify your plan before you check out on the shopping page.
+- As a user you will be able to modify(update) your plan before you check out on the shopping page.
+- As a user you will be able to delete your plan in your shopping cart.
 
 As a admin I need to be able to:
 
