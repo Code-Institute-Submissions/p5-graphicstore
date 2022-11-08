@@ -24,6 +24,7 @@ As a admin I need to be able to:
 - Manage the list of users who sign up to the site.
 - I will be able to change the content on site 
 - I will be able to update the plans and content of the site
+- I will be able to delete accounts who sign up to the site
 
 ### Intention
 
