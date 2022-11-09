@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1000">
+            <img src="../media/abstract-art.jpg" class="d-block w-100" alt="abstract-art">
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="../media/nft.jpg" class="d-block w-100" alt="NFT-art">
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="../media/Lofi-livingroom.jpg" class="d-block w-100" alt="Lofi-art">
+          </div>
+        </div>
+      </div>
+      <script>
+        const myCarouselElement = document.querySelector('#carouselExampleDark')
+        const carousel = new bootstrap.Carousel(myCarouselElement, {
+        interval: 4000,
+        wrap: true
+        })
+      </script>
+       <h1 class="text-center my-5">Plans Page</h1>
+       <div class="text-center container my-5">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit perspiciatis labore debitis vel consequatur obcaecati porro. Soluta et, recusandae voluptate molestiae vero nostrum? Quis ex ducimus iure, corporis mollitia explicabo laborum sunt tempore! Placeat fugiat ea quod sed itaque, recusandae temporibus nisi corrupti quae accusantium asperiores fugit vero necessitatibus omnis?</p>
+       </div>
+       <hr class="w-50 mb-1">
+       <div class="card-deck my-5 mx-5">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Plan 1: Abstract Art</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Abstract Information</h6>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae debitis quasi minima nobis neque eos sapiente harum quaerat unde, blanditiis eius incidunt, voluptatum omnis mollitia doloremque obcaecati quibusdam repellat quam suscipit quod eaque asperiores pariatur veniam atque! Eligendi obcaecati aspernatur impedit deserunt, inventore unde, earum quidem, quaerat quod doloribus dicta.</p>
+              <a href="#" class="card-link">Link to Abstrat Plan Details</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Plan 2: NFT Art</h5>
+              <h6 class="card-subtitle mb-2 text-muted">NFT Informaiton</h6>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit fugit beatae dolore ab, soluta deserunt ipsam possimus ducimus odio nesciunt provident earum, fugiat magnam? Perferendis autem sunt quo. Nam obcaecati alias hic beatae eaque tempore commodi laborum temporibus illo magni non eum adipisci, sunt sequi deleniti tenetur repudiandae, architecto impedit!</p>
+              <a href="#" class="card-link">Link to NFT Plan Details</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Plan 3: Lo-fi Art</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Lo-fi information</h6>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque natus ducimus, ut odio, officia aspernatur, eligendi accusamus ipsum ullam a praesentium. Impedit eligendi fugit ullam, officia esse expedita ducimus voluptatem neque deleniti reiciendis temporibus iusto sunt placeat ad in omnis repellendus aperiam atque eius! Tempore eius accusantium aliquid ad commodi.</p>
+              <a href="#" class="card-link">Link to Lo-fi Plan Details</a>
+            </div>
+        </div>
+      </div>
+{% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+
+{% endblock %}
