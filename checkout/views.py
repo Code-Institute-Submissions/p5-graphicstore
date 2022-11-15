@@ -8,11 +8,12 @@ from products.models import Product
 from bag.contexts import bag_contents
 
 import stripe
+import os
 
 
 def checkout(request):
-    stripe_public_key = settings.STRIPE_PUBLIC_KEY
-    stripe_secret_key = settings.STRIPE_SECRET_KEY
+    stripe_public_key = os.environ.get("STRIPE_PUBLIC_KEY")
+    stripe_secret_key = os.environ.get("STRIPE_SECRET_KEY")
 
     if request.method == 'POST':
         bag = request.session.get('bag', {})
