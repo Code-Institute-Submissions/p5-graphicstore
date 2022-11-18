@@ -11,9 +11,10 @@ class OrderLineItemAdminInline(admin.TabularInline):
 class OrderAdmin(admin.ModelAdmin):
     inlines = (OrderLineItemAdminInline,)
 
-    readonly_fiels = ('order_number', 'date',
-                      'delivery_cost', 'order_total',
-                      'grand_total')
+    readonly_fields = ('order_number', 'date',
+                       'delivery_cost', 'order_total',
+                       'grand_total', 'original_bag',
+                       'stripe_pid')
 
     fields = ('full_name',
               'email', 'phone_number', 'country',
