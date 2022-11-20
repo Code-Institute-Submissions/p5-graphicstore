@@ -51,7 +51,8 @@ INSTALLED_APPS = [
     'checkout',
     'profiles',
     #
-    'crispy_forms'
+    'crispy_forms',
+    #'cloudinary',
 ]
 
 MIDDLEWARE = [
@@ -129,6 +130,12 @@ DATABASES = {
     }
 }
 
+#CLOUDINARY_STORAGE = { 
+#    'CLOUD_NAME': os.environ.get('CLOUD_NAME'),
+#    'API_KEY': os.environ.get('API_KEY'),
+#    'API_SECRET': os.environ.get('API_SECRET'),
+#}
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
@@ -168,9 +175,12 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+#STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+#DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
