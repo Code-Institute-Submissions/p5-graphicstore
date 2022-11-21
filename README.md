@@ -50,16 +50,17 @@ My intension for this project was to make a easy to understand ecommerce graphic
 Graphic Store - Balsamiq Wireframe
  - Desktop View 
  - Home Page
+  ![BalsamiqWireframes_14q3c0wceJ](https://user-images.githubusercontent.com/43074374/202945544-a628f9ae-d585-44aa-b2d3-4956aa82de04.png)
+
+ - Store Page
+  ![BalsamiqWireframes_VPyK7P70Gp](https://user-images.githubusercontent.com/43074374/202945608-d8c8caac-b7f8-4e81-b453-75c88da8e37d.png)
 
  - About Page
-
-- Plan Page
-
-- Prices Page
+  ![BalsamiqWireframes_Ha2OZyCmQ1](https://user-images.githubusercontent.com/43074374/202945721-c50635d7-f1b3-47a0-99d5-097ae49a442a.png)
 
 - Mobile View
 
-![mv](https://user-images.githubusercontent.com/43074374/194976182-247b2c9e-d418-457e-abc7-875d834c30e1.png)
+![BalsamiqWireframes_zwdd7WGX63](https://user-images.githubusercontent.com/43074374/202945396-1aeb549b-3f7f-4b78-afe9-96d3c230e7cb.png)
 
 # Design
 ## Database design
