@@ -123,6 +123,7 @@ Graphic Store - Balsamiq Wireframe
   - Purchasing a product work.
   - Updating user information works on the user profile.
   - Order confirmation work.
+  
   ![brave_SeIqSBF2sA](https://user-images.githubusercontent.com/43074374/202962183-ed280f17-a8c8-49e1-9af9-3ff830c9a74f.png)
   - Orders that get reated and added to the database work.
 
