@@ -78,8 +78,11 @@ Graphic Store - Balsamiq Wireframe
 
 ![brave_LUTIEr8zap](https://user-images.githubusercontent.com/43074374/202915579-2f55858b-3125-499f-9398-aae245eaacb2.png)
 
-# Admin Management 
-## Adding products 
+# Admin Management
+## User Management
+![brave_Kkv9bwsvL1](https://user-images.githubusercontent.com/43074374/202961215-0cf59b9e-4913-4e5e-a1f1-76f394e5cd0d.png)
+
+## Product Management 
 ![brave_UCsP8HHPUi](https://user-images.githubusercontent.com/43074374/202915684-af551a98-8f24-4212-a9d1-0c06d878b8b5.png)
 
 # Features 
@@ -109,11 +112,40 @@ Graphic Store - Balsamiq Wireframe
 
 # Testing 
 - [Need to Finish]
+- [HTML Validator]
+- [CSS Validator]
+- [Browser testing]
+- [unit testing]
+- [PEP8]
+- [Coverage]
+- [Local Testing],
+  - For local testing Resitering and login work.
+  - Purchasing a product work.
+  - Updating user information works on the user profile.
+  - Order confirmation work.
+  ![brave_SeIqSBF2sA](https://user-images.githubusercontent.com/43074374/202962183-ed280f17-a8c8-49e1-9af9-3ff830c9a74f.png)
+  - Orders that get reated and added to the database work.
+
+- [Live site testing]
 
 ## Further Testing
 - [Need to Finish]
 
 # Known Bugs
-- For some strange reason when a user orders someone it wont save to their profile history
+- For some strange reason when a user orders something it wont save to their profile history.
 
 # Deployment
+
+# Elephantsql and Heroku
+## Make an account on Elphantsql first
+![brave_3wR1qtrf2W](https://user-images.githubusercontent.com/43074374/202960198-21a9792f-80b0-4eb8-aa89-7a6c51842afc.png)
+
+## Connect your repo from github to your heroku app
+![brave_mM76FVbuDs](https://user-images.githubusercontent.com/43074374/202960084-c5fc6e8e-a70a-416d-b534-8bfb6661ca21.png)
+
+## Set up your build packs you are using for the project and config vars
+![brave_aKzgypdI8y](https://user-images.githubusercontent.com/43074374/202960441-7a586e0b-6bfc-45eb-8aa2-d226e5f50bc5.png)
+
+## Then once you have everything done in your project ready to deploy 
+![brave_sIViH6Xfqz](https://user-images.githubusercontent.com/43074374/202960572-204ca249-4f9e-4edd-81e1-7d5ca6c5c9e7.png)
+
