@@ -50,25 +50,27 @@ My intension for this project was to make a easy to understand ecommerce graphic
 Graphic Store - Balsamiq Wireframe
  - Desktop View 
  - Home Page
+
   ![BalsamiqWireframes_14q3c0wceJ](https://user-images.githubusercontent.com/43074374/202945544-a628f9ae-d585-44aa-b2d3-4956aa82de04.png)
 
  - Store Page
+
   ![BalsamiqWireframes_VPyK7P70Gp](https://user-images.githubusercontent.com/43074374/202945608-d8c8caac-b7f8-4e81-b453-75c88da8e37d.png)
 
  - About Page
+
   ![BalsamiqWireframes_Ha2OZyCmQ1](https://user-images.githubusercontent.com/43074374/202945721-c50635d7-f1b3-47a0-99d5-097ae49a442a.png)
 
 - Mobile View
 
 ![BalsamiqWireframes_zwdd7WGX63](https://user-images.githubusercontent.com/43074374/202945396-1aeb549b-3f7f-4b78-afe9-96d3c230e7cb.png)
 
-# Design
 ## Database design
 
 ![brave_nQJJXGhsZE](https://user-images.githubusercontent.com/43074374/202915405-a2e99757-762f-47c4-bc48-470dfb4a801b.png)
 
 ## Project board 
-### I updated the project board as I went through the project in the pictures below
+### I updated the project kanban board as I was developing the project 
 
 ![brave_X4ZpqPTszd](https://user-images.githubusercontent.com/43074374/202915515-dbdb7ff0-50ac-43da-960a-8ea33b27ea2f.png)
 
@@ -80,5 +82,38 @@ Graphic Store - Balsamiq Wireframe
 ## Adding products 
 ![brave_UCsP8HHPUi](https://user-images.githubusercontent.com/43074374/202915684-af551a98-8f24-4212-a9d1-0c06d878b8b5.png)
 
+# Features 
+- Responsive on all device sizes
+- Interactive elements
+
+# Technolgies Used
+## Languages Used
+ 1. HTML
+ 2. CSS3 
+ 3. Boostrap
+ 4. Font awesome
+ 5. Cloudinary 
+ 6. PostgreSQL 
+ 7. Github for
+ 8. Balsamiq
+
+# Frameworks, Libraries & Programs Used
+ 1. HTML Used for the pages layout
+ 2. Boostrap for responsive design
+ 3. Font awesome for icons
+ 4. Cloudinary for storing the images 
+ 5. PostgreSQL for the database 
+ 6. Github for storing the code base
+ 7. Balsamiq used to create wireframes
 
 
+# Testing 
+- [Need to Finish]
+
+## Further Testing
+- [Need to Finish]
+
+# Known Bugs
+- For some strange reason when a user orders someone it wont save to their profile history
+
+# Deployment
