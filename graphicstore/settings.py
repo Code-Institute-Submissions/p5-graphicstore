@@ -74,8 +74,6 @@ ROOT_URLCONF = 'graphicstore.urls'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
-CSRF_COOKIE_SECURE = True
-
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
