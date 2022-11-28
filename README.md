@@ -67,7 +67,7 @@ Graphic Store - Balsamiq Wireframe
 
 ## Database design
 
-![brave_nQJJXGhsZE](https://user-images.githubusercontent.com/43074374/202915405-a2e99757-762f-47c4-bc48-470dfb4a801b.png)
+
 
 ## Project board 
 ### I updated the project kanban board as I was developing the project 
