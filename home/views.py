@@ -9,3 +9,8 @@ def index(request):
 def about(request): 
     """ A view to return the about page"""
     return render(request, 'home/about.html')
+
+
+def contact(request): 
+    """ A view to return the about page"""
+    return render(request, 'home/contact.html')
