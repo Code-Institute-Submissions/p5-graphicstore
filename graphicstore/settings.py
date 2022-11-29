@@ -48,12 +48,12 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
+    # Add new appe
     'home',
     'products',
     'bag',
     'checkout',
     'profiles',
-    #
     'crispy_forms',
     'cloudinary_storage',
     'django.contrib.staticfiles',
@@ -70,6 +70,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     "whitenoise.middleware.WhiteNoiseMiddleware",
 ]
+
+DEFAULT_FROM_EMAIL = "eoghankb@gmail.com"
 
 ROOT_URLCONF = 'graphicstore.urls'
 
@@ -112,7 +114,13 @@ AUTHENTICATION_BACKENDS = [
 
 SITE_ID = 1
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.mailgun.org'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'postmaster@sandbox2e67ad8ffed94fd79c74b8fbdd62ea40.mailgun.org'
+EMAIL_HOST_PASSWORD = 'd2d7d3c2a8f84fe0500b1f510d48d361-f2340574-373b04fb'
+EMAIL_USE_TLS = True
+
 
 ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
 ACCOUNT_EMAIL_REQUIRED = True
