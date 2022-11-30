@@ -59,14 +59,12 @@ Graphic Store - Balsamiq Wireframe
 
  - About Page
 
-  ![BalsamiqWireframes_Ha2OZyCmQ1](https://user-images.githubusercontent.com/43074374/202945721-c50635d7-f1b3-47a0-99d5-097ae49a442a.png)
 
 - Mobile View
 
-![BalsamiqWireframes_zwdd7WGX63](https://user-images.githubusercontent.com/43074374/202945396-1aeb549b-3f7f-4b78-afe9-96d3c230e7cb.png)
+  ![BalsamiqWireframes_zwdd7WGX63](https://user-images.githubusercontent.com/43074374/202945396-1aeb549b-3f7f-4b78-afe9-96d3c230e7cb.png)
 
 ## Database design
-
 
 
 ## Project board 
