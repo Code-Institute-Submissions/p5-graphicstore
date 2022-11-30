@@ -1,9 +1,10 @@
 from django.shortcuts import render, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
+from django.shortcuts import redirect
 
 from .models import UserProfile
-from .forms import UserProfileForm
+from .forms import UserProfileForm, TicketForm
 
 from checkout.models import Order
 # Create your views here.
@@ -21,11 +22,13 @@ def profile(request):
             messages.success(request, 'Profile updated successfully')
 
     form = UserProfileForm(instance=profile)
+    ticketform = TicketForm()
     order = profile.orders.all()
 
     template = 'profiles/profile.html'
     context = {
         'form': form,
+        'ticketform': ticketform,
         'profile': profile,
         'on_profile_page': True,
     }
@@ -48,3 +51,14 @@ def order_history(request, order_number):
     }
 
     return render(request, template, context)
+
+
+@login_required
+def tickets(request):
+    """ """
+    form = TicketForm(request.POST)
+    if form.is_valid():
+        ticket_new = form.save(commit=False)
+        ticket_new.user = request.user
+        ticket_new.save()
+    return redirect('profile')
