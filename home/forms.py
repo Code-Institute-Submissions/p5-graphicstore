@@ -18,5 +18,5 @@ class NewsletterForm(forms.ModelForm):
         }
 
         for field in self.fields:
-            self.fields[field].widget.attrs['class'] = 'border-black rounded-0 newsletter-form-input'
+            self.fields[field].widget.attrs['class'] = 'border-black rounded-0'
             self.fields[field].label = False
