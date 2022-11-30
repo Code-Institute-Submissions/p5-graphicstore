@@ -3,8 +3,10 @@ from django.contrib import messages
 from django.db.models import Q
 from django.db.models.functions import Lower
 from .models import Product, Category
+from .forms import CommentForm
 
 # Create your views here.
+
 
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
@@ -60,9 +62,24 @@ def product_detail(request, product_id):
     """ A view to show individual product details """
 
     product = get_object_or_404(Product, pk=product_id)
+    comments = product.comments.order_by("-created_on")
+    form = CommentForm()
 
+    if request.method == 'POST':
+
+        form = CommentForm(data=request.POST)
+
+        if form.is_valid():
+            comment = form.save(commit=False)
+            comment.user = request.user
+            comment.product = product
+            comment.save()
+
+    print(comments)
     context = {
         'product': product,
+        'form': form,
+        'comments': comments,
     }
 
     return render(request, 'products/product_detail.html', context)
