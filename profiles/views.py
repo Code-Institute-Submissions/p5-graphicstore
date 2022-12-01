@@ -23,13 +23,14 @@ def profile(request):
 
     form = UserProfileForm(instance=profile)
     ticketform = TicketForm()
-    order = profile.orders.all()
+    orders = profile.orders.all()
 
     template = 'profiles/profile.html'
     context = {
         'form': form,
         'ticketform': ticketform,
         'profile': profile,
+        'orders': orders,
         'on_profile_page': True,
     }
 
