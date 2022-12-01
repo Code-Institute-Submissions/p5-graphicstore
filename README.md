@@ -178,6 +178,9 @@ Graphic Store - Balsamiq Wireframe
 
   ![brave_ldjcpqSFIQ](https://user-images.githubusercontent.com/43074374/204944883-cd85dfd7-53a0-4634-92c1-9f0256899a89.png)
 
+# Credit
+  Credit to code institute for template 
+
 # Deployment
 
 # Elephantsql and Heroku
