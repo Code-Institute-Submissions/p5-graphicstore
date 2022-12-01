@@ -81,7 +81,11 @@ Graphic Store - Balsamiq Wireframe
 # Admin Management
 ## User Management
 
+![brave_B59JjJkFpC](https://user-images.githubusercontent.com/43074374/204945229-3106e663-f273-442f-b063-5d03e0dfe42b.png)
+
 ## Product Management
+
+![brave_ZGqBM3roC2](https://user-images.githubusercontent.com/43074374/204945349-e80dd94c-c616-486b-9f48-6874c663e934.png)
 
 # Features 
 - Responsive on all device sizes
