@@ -118,8 +118,9 @@ Graphic Store - Balsamiq Wireframe
 
 # Testing 
 - [Browser testing]
-  - Teste site on brave works fine
-  - 
+  - Tested site on brave browser works fine
+  - Tested site on firefox browser works fine
+  - Tested site on chrome browser works fine
 
 - [Live site testing]
 ## Test if sql dumps data on input
