@@ -14,15 +14,15 @@ User Stories: As a guest I would like to be able to:
 
 As a user I would like to be able to:
 
-- As a user you will be able to create an account once you are singed up
-- As a user you will be able to browse example art in the store
-- As a user you will be able to have a profile page that saves your info
-- As a user you will be able to select and buy an item from the store page
-- As a user you will be able to search the site for the different categories of art work
-- As a user you will be able to see what your order history
+- As a user you will be able to create an account by singing up
+- As a user you will be able to browse a store page with art work
+- As a user you will be able to have a profile page that saves your orders
+- As a user you will be able to select and buy an item from the store page and add to their shopping bag
+- As a user you will be able to search the site for the different categories of art work abstract art, NFT art and lofi art
+- As a user you will be able to see what your order history on their profile page
 - As a user you will be able to submit a ticket if you have issues buying something.
 - As a user you will be able to sign up to a newsletter for updates about the site.
-- As a user you will be able to modify your shopping bag by adding or removing an item.
+- As a user you will be able to modify your shopping bag by adding or removing products.
 
 As a admin I need to be able to:
 
@@ -59,6 +59,7 @@ Graphic Store - Balsamiq Wireframe
 
  - About Page
 
+![BalsamiqWireframes_9YbuAvwvbz](https://user-images.githubusercontent.com/43074374/204941542-ac29c11d-704a-41b2-9e64-4eae090fd124.png)
 
 - Mobile View
 
@@ -66,6 +67,7 @@ Graphic Store - Balsamiq Wireframe
 
 ## Database design
 
+![brave_wEGS7buO0o](https://user-images.githubusercontent.com/43074374/204938779-c730344a-68d3-4ca4-860e-0e28cf65f4ce.png)
 
 ## Project board 
 ### I updated the project kanban board as I was developing the project 
@@ -78,14 +80,16 @@ Graphic Store - Balsamiq Wireframe
 
 # Admin Management
 ## User Management
-![brave_Kkv9bwsvL1](https://user-images.githubusercontent.com/43074374/202961215-0cf59b9e-4913-4e5e-a1f1-76f394e5cd0d.png)
 
-## Product Management 
-![brave_UCsP8HHPUi](https://user-images.githubusercontent.com/43074374/202915684-af551a98-8f24-4212-a9d1-0c06d878b8b5.png)
+## Product Management
 
 # Features 
 - Responsive on all device sizes
 - Interactive elements
+- Store page
+- Shopping bag
+- Newsletter
+- Support ticket
 
 # Technolgies Used
 ## Languages Used
@@ -95,7 +99,7 @@ Graphic Store - Balsamiq Wireframe
  4. Font awesome
  5. Cloudinary 
  6. PostgreSQL 
- 7. Github for
+ 7. Github
  8. Balsamiq
 
 # Frameworks, Libraries & Programs Used
@@ -109,29 +113,61 @@ Graphic Store - Balsamiq Wireframe
 
 
 # Testing 
-- [Need to Finish]
-- [HTML Validator]
-- [CSS Validator]
 - [Browser testing]
-- [unit testing]
-- [PEP8]
-- [Coverage]
-- [Local Testing],
-  - For local testing Resitering and login work.
-  - Purchasing a product work.
-  - Updating user information works on the user profile.
-  - Order confirmation work.
-  
-  ![brave_SeIqSBF2sA](https://user-images.githubusercontent.com/43074374/202962183-ed280f17-a8c8-49e1-9af9-3ff830c9a74f.png)
-  - Orders that get reated and added to the database work.
+  - Teste site on brave works fine
+  - 
 
 - [Live site testing]
+## Test if sql dumps data on input
 
-## Further Testing
-- [Need to Finish]
+  ![brave_13EBdzRbYl](https://user-images.githubusercontent.com/43074374/204933868-ba742bed-2943-4169-a97e-af0542d3224c.png)
 
-# Known Bugs
-- For some strange reason when a user orders something it wont save to their profile history.
+## Testing for buying a product
+
+  ![brave_BFg3m3dYF4](https://user-images.githubusercontent.com/43074374/204935723-984b6a7a-ebed-4676-8607-39e841f892b1.png)
+
+## Order confirmation work.
+  - Orders that get reated and added to the database work.
+  
+  ![brave_SeIqSBF2sA](https://user-images.githubusercontent.com/43074374/202962183-ed280f17-a8c8-49e1-9af9-3ff830c9a74f.png)
+
+## Checkout success page after purchasing a product
+
+  ![brave_Ou9RzqGGwB](https://user-images.githubusercontent.com/43074374/204935127-3de1668a-b040-47c4-8fc9-10b52e9ba6ab.png)
+
+## Order history saved in user profile page
+
+  ![brave_lDbI5cpAig](https://user-images.githubusercontent.com/43074374/204936426-31d22ed3-1e62-4313-8d46-5cf28a08d2e6.png)
+
+## Order saved to admin page
+
+  ![brave_xMLt134PuT](https://user-images.githubusercontent.com/43074374/204941678-4092821d-0dc3-4b29-9ae7-868ad1ca5d27.png)
+
+## Test comment on detialed product
+
+  ![brave_2lvIX23RhJ](https://user-images.githubusercontent.com/43074374/204937086-d2c4f468-1c8d-4275-ba48-bda4822aaf08.png)
+
+## Sign in Page
+
+  ![brave_Q35Idi7Cgi](https://user-images.githubusercontent.com/43074374/204937579-19e6729f-009f-4608-8ae8-ef4f2f622fa4.png)
+
+## Sing in message if successfull
+
+  ![brave_pUgK2mhgFn](https://user-images.githubusercontent.com/43074374/204937627-be299a6b-7138-4654-8e2e-559cd6e574b0.png)
+
+  ![brave_dk2yKZuLyC](https://user-images.githubusercontent.com/43074374/204942913-e5227686-ab07-4aa9-b7de-7abf237d6e60.png)
+
+## Sign out page
+
+  ![brave_TeoMiHX2EI](https://user-images.githubusercontent.com/43074374/204937742-5b53305c-e2c2-41b2-8f47-0e445c51cbe9.png)
+
+## Newsletter functionality
+
+  ![brave_udJCWhW63D](https://user-images.githubusercontent.com/43074374/204939461-3b82f30a-f742-4fa6-a08d-3acf23e7f100.png)
+
+  ![brave_9rkWKtX9Cm](https://user-images.githubusercontent.com/43074374/204943255-6c625609-4773-484d-9676-1501e870ddcf.png)
+
+## Ticket functionality
 
 # Deployment
 
